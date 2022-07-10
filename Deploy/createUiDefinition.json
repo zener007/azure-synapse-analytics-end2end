@@ -34,7 +34,7 @@
 									"name": "networkIsolationMode",
 									"type": "Microsoft.Common.OptionsGroup",
 									"label": "Network Isolation Mode",
-									"defaultValue": "Public Endpoints (default)",
+									"defaultValue": "vNet Integrated",
 									"toolTip": "",
 									"constraints": {
 										"allowedValues": [
@@ -91,7 +91,7 @@
 									"name": "ctrlDeploySynapseSQLPool",
 									"type": "Microsoft.Common.OptionsGroup",
 									"label": "Create Dedicated Synapse SQL Pool",
-									"defaultValue": "Yes (recommended)",
+									"defaultValue": "No",
 									"toolTip": "A Synapse Dedicated SQL Pool will be provisioned at DW100 performance level. Please scale up as required once provisioning is complete.",
 									"constraints": {
 										"allowedValues": [
@@ -161,7 +161,7 @@
 									"name": "ctrlDeploySynapseADXPool",
 									"type": "Microsoft.Common.OptionsGroup",
 									"label": "Create Data Explorer Pool",
-									"defaultValue": "Yes (recommended)",
+									"defaultValue": "No",
 									"toolTip": "A Synapse Data Explorer Compute Optimized Pool will be provisioned with size 'Extra Small'. Please scale up as required once provisioning is complete.",
 									"constraints": {
 										"allowedValues": [
@@ -343,7 +343,7 @@
 									"name": "ctrlDeployStreaming",
 									"type": "Microsoft.Common.OptionsGroup",
 									"label": "Deploy Data Streaming Services",
-									"defaultValue": "Yes (recommended)",
+									"defaultValue": "No",
 									"toolTip": "",
 									"constraints": {
 										"allowedValues": [
@@ -443,7 +443,7 @@
 									"name": "ctrlDeployCosmosDB",
 									"type": "Microsoft.Common.OptionsGroup",
 									"label": "Deploy CosmosDB",
-									"defaultValue": "Yes (recommended)",
+									"defaultValue": "No",
 									"toolTip": "",
 									"constraints": {
 										"allowedValues": [
